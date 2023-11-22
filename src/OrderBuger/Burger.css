@@ -1,0 +1,213 @@
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    background: rgb(34, 30, 30);
+    background: linear-gradient(90deg, rgba(34, 30, 30, 1) 0%, rgba(100, 99, 111, 1) 17%, rgba(163, 163, 187, 1) 33%, rgba(123, 121, 138, 1) 47%, rgba(34, 30, 30, 1) 100%);
+}
+
+.name_store {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    background: linear-gradient(90deg, #f1da55, #f0942b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.name_menu {
+    margin-top: 65px;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    background: linear-gradient(90deg, #83bb4f, #04310b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.layout_buger_store {
+    width: 100%;
+    height: 750px;
+    overflow-y: auto;
+    
+    
+    
+}
+.layout_buger_store::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+.layout_buger_store::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+.layout_buger_store::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to bottom, #F1AE55, #F09A2B);
+    border-radius: 10px;
+  }
+
+.burger {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+
+    border-radius: 10px;
+    margin: 0 auto;
+
+
+}
+
+.bread-top {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-color: #F09A2B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 150px 150px 30px 30px;
+    border: 5px solid #484C55;
+    border-bottom-width: 3px;
+    overflow: hidden;
+
+}
+
+.bread-top-effect {
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    background-color: #F1AE55;
+    right: 35%;
+    border-radius: 150px 150px 90px 10px;
+}
+
+.bread-bottom {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background-color: #D98E28;
+    border: 5px solid #484C55;
+    border-top-width: 3px;
+    overflow: hidden;
+    border-radius: 10px 10px 70px 70px;
+}
+
+.bread-bottom-effect {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    background-color: #F1AE55;
+
+    right: 35%;
+    border-radius: 10px 10px 70px 70px;
+}
+
+
+
+.meat {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #A73609;
+    margin: 0 auto;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid #484C55;
+
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+}
+
+.meat-effect {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    bottom: 10%;
+    background-color: #CE4A1A;
+    margin: 5px auto;
+    border-radius: 30px;
+}
+
+.lettuce {
+    position: relative;
+    width: 100%;
+    height: 20px;
+    background-color: #65BD51;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 5px solid #484C55;
+
+
+}
+
+.half-circle {
+    position: absolute;
+    bottom: -30px;
+    width: 100px;
+    height: 30px;
+    border-radius: 0 0 100px 100px;
+    background-color: #8fd67a;
+    border: 5px solid #484C55;
+    border-top: none;
+    overflow: hidden;
+}
+
+.half-circle::after {
+    content: '';
+    margin: 0 auto;
+    left: 5%;
+    width: 90%;
+    height: 20px;
+    position: absolute;
+    background-color: #65BD51;
+    bottom: 5px;
+    border-radius: 0 0 100px 100px;
+}
+
+
+.cheese {
+    position: relative;
+    margin: 0 auto;
+    width: 98%;
+    height: 20px;
+    border: 5px solid #484C55;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    background-color: #FFDC42;
+    border-radius: 5px 5px;
+
+
+}
+
+
+.cheese::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: -32px;
+    left: 5%;
+
+    border-style: solid;
+    border-width: 35px 90px 0 90px;
+    border-color: #FFDC42 transparent transparent transparent;
+
+
+}
+
+.triangle {
+    position: absolute;
+    bottom: -39px;
+    left: 5%;
+
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 35px 90px 0 90px;
+    border-color: #484C55 transparent transparent transparent;
+
+}
+
+/* svg {
+    border: 5px solid black;
+} */
